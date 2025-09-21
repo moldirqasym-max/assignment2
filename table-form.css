@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  background: #eee;
+  padding: 12px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.navbar a:hover {
+  background: #ddd;
+}
+.navbar a.active {
+  background: #a2d2ff;
+  color: #000;
+}
+
+/* Table */
+#grades-title {
+  margin-top: 20px;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+th {
+  background: #a2d2ff;
+}
+tr:nth-child(even) {
+  background: #f0f0f0;
+}
+.highlight-row {
+  background: #ffefc2;
+}
+
+/* Form */
+.feedback-form {
+  margin: 30px auto;
+  max-width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.feedback-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.feedback-form button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: #6ea8fe;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.feedback-form button:hover {
+  background: #4c6ef5;
+}

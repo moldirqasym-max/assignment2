@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table & Form</title>
+  <link rel="stylesheet" href="table-form.css">
+</head>
+<body>
+
+  <div class="navbar">
+  <a href="index.html">Task 1</a>
+  <a href="exercise1/index.html">Task 2</a>
+  <a class="active" href="table-form.html">Task 3</a>
+  <a href="midterm.html">Task 4</a>
+</div>
+
+
+  <h1 id="grades-title">Student Grades</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Moldir</td>
+        <td>Math</td>
+        <td>A</td>
+      </tr>
+      <tr class="highlight-row">
+        <td>Nurzhan</td>
+        <td>Physics</td>
+        <td>B+</td>
+      </tr>
+      <tr>
+        <td>Damelya</td>
+        <td>History</td>
+        <td>A-</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Form -->
+  <h2>Feedback Form</h2>
+  <form class="feedback-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="role">Role:</label>
+    <select id="role" name="role">
+      <option>Student</option>
+      <option>Teacher</option>
+      <option>Other</option>
+    </select>
+
+    <p>Do you like this assignment?</p>
+    <label><input type="radio" name="like" value="yes"> Yes</label>
+    <label><input type="radio" name="like" value="no"> No</label>
+
+    <label for="comments">Comments:</label>
+    <textarea id="comments" name="comments"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>

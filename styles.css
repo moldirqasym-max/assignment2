@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #fdfdfd; /* почти белый */
+  color: #222;         /* тёмный текст */
+}
+
+/* Навигация */
+.navbar {
+  background: #000; /* чёрный */
+  padding: 12px;
+  text-align: center;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.navbar a:hover {
+  background: #c0a060; /* золотистый при наведении */
+  color: #000;
+}
+.navbar a.active {
+  background: #c0a060; /* золотой для активной */
+  color: #000;
+}
+
+/* Header */
+header {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding: 30px 20px;
+  font-family: 'Playfair Display', serif;
+  border-bottom: 2px solid #000;
+}
+header h1 { font-size: 42px; margin-bottom: 10px; }
+header h2 { font-size: 24px; font-weight: normal; }
+
+/* Content */
+.content {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+h3 {
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #000;
+}
+
+p { line-height: 1.6; }
+
+/* Lists */
+ol, ul {
+  margin: 10px 0 20px 25px;
+}
+li { margin-bottom: 6px; }
+
+/* Image */
+img {
+  display: block;
+  max-width: 300px;
+  margin: 20px auto;
+  border-radius: 6px;
+  border: 2px solid #000;
+}
+
+/* Links */
+a { color: #000; }
+a:hover { text-decoration: underline; }
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #c0a060; /* золотистый */
+  color: #000;
+}
